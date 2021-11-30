@@ -575,7 +575,7 @@ for i in range(len(dia_8)):
   soma = 0
 
   for j in range(len(tabela_autorizado)):
-    if tabela_autorizado['payment_date'][j] == dia[i]:
+    if tabela_autorizado['payment_date'][j] == dia_8[i]:
       numero_retentativa.append(tabela_autorizado['payment_attempt'][j])
 
     else:
