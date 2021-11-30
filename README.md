@@ -3,11 +3,11 @@ Case_DataAnalytics - 1 Base de Dados, 8 Problemas. Tempo médio -> 20 minutos (P
 
 
 # Arquivos python
-Arquivo VTetzner_case_maisTodos.py extraido do JupyterNotebook, para rodar o código, ter previamente instalado o Jupyter no sistema diretamente ou pelo Anaconda.
-run: ~ipython VTetzner_case_maisTodos.py.py
+Arquivo vtetzner_case_maisTodos.py extraido do JupyterNotebook, para rodar o código, ter previamente instalado o Jupyter no sistema diretamente ou pelo Anaconda.
+run: ~ipython vtetzner_case_maisTodos.py
 
-Arquivo vtetzner_case_maisTodos_py.py extraido do JupyterNotebook, para rodar o código, ter previamente instalado a biblioteca pip no sistema para instalação das outras dependencias (pandas e numpy, caso necessario).
-run: ~python vtetzner_case_maisTodos_py.py
+Arquivo vPy_vtetzner_case_maisTodos.py extraido do JupyterNotebook, para rodar o código, ter previamente instalado a biblioteca pip no sistema para instalação das outras dependencias (pandas e numpy, caso necessario).
+run: ~python vPy_vtetzner_case_maisTodos.py
 
 Arquivo VTetzner_case_maisTodos.ipynb extraido do JupyterNotebook, para rodar o código em ambiente JupyterNotebook.
 
