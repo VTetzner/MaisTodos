@@ -61,7 +61,7 @@ total_por_dia =[]
 
 for i in range(len(dia)):
   soma = 0
-  print('Dia: ', i)
+  ##print('Dia: ', i)
 
   for j in range(len(tabela_data_pagamento)):
     if tabela_data_pagamento['payment_date'][j] == dia[i]:
