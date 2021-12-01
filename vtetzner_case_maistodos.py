@@ -588,6 +588,7 @@ cont_retentativa_por_dia_df = pd.DataFrame(cont_retentativa_por_dia, columns=['n
 tabela_final_8 = cont_autorizado.copy()
 tabela_final_8['numero_de_retentativas'] = cont_retentativa_por_dia
 tabela_final_8['pagamento/#_retentativa'] = tabela_final_8['cont_autorizado']/tabela_final_8['numero_de_retentativas']
-melhor_dia = tabela_final_8['pagamento/#_retentativa'].idxmax(axis='index')
+melhor_valor = max(tabela_final_8['pagamento/#_retentativa'])
+melhor_dia = tabela_final_8.index[tabela_final_8['pagamento/#_retentativa']==melhor_valor].tolist()
 
 print('O melhor dia de pagamento, por quantidade de retentativas, foi: ', melhor_dia )
